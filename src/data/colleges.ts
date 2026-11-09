@@ -12,6 +12,9 @@ export interface OdishaCollegeItem {
   type: string;
   address: string;
   domains: string[];
+  status?: string;
+  source?: string;
+  createdAt?: string;
 }
 
 export const ALL_ODISHA_COLLEGES: OdishaCollegeItem[] = [

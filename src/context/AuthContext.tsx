@@ -411,7 +411,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         try {
           await api.submitOtherCollege({
             collegeName: updated.collegeName || 'Custom College',
-            collegeAddress: profileData.collegeAddress || updated.address,
+            collegeAddress: profileData.collegeAddress || updated.address || 'Not provided',
             district: profileData.district || 'Odisha',
             registrationNo: updated.collegeIdNumber || '',
             idCardUrl: updated.idCardImageUrl || '',

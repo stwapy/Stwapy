@@ -28,6 +28,7 @@ import {
   ChevronUp,
   Plus,
   Building,
+  Building2,
 } from 'lucide-react';
 
 export default function OnboardingModal() {
