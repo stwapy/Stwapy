@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.stwapy_cache/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
